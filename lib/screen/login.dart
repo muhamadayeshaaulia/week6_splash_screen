@@ -35,6 +35,7 @@ class MyLogin extends StatelessWidget {
             keyboardType: TextInputType.emailAddress,
             decoration: InputDecoration(
               border: OutlineInputBorder(),
+              prefixIcon: Icon(Icons.email),
               labelText: 'Email',
               hintText: 'Masukkan Email Anda',
             ),
