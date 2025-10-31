@@ -57,6 +57,7 @@ class MySplashScreen2 extends StatelessWidget {
               Row(
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
+                  SizedBox(width: 10),
                   Container(
                     height: 10,
                     width: 10,
@@ -71,6 +72,7 @@ class MySplashScreen2 extends StatelessWidget {
               Row(
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
+                  SizedBox(width: 10),
                   Container(
                     height: 10,
                     width: 10,
@@ -102,6 +104,7 @@ class MySplashScreen2 extends StatelessWidget {
               style: TextStyle(fontSize: 16.0, color: Colors.black),
             ),
           ),
+          SizedBox(height: 30),
         ],
         //2.buat title wanrna hitam huruf besar
         //3 buat subtitle warna lebih kecil

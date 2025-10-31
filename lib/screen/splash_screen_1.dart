@@ -1,4 +1,3 @@
-import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:week6_splash_screen/screen/splash_screen_2.dart';
 
@@ -58,6 +57,7 @@ class MySplashScreen extends StatelessWidget {
               Row(
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
+                  SizedBox(width: 10),
                   Container(
                     height: 10,
                     width: 10,
@@ -68,10 +68,11 @@ class MySplashScreen extends StatelessWidget {
                   ),
                 ],
               ),
-              SizedBox(height: 20),
+              SizedBox(height: 30),
               Row(
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
+                  SizedBox(width: 10),
                   Container(
                     height: 10,
                     width: 10,
@@ -84,12 +85,11 @@ class MySplashScreen extends StatelessWidget {
               ),
             ],
           ),
-          SizedBox(height: 20),
+          SizedBox(height: 30),
           Container(
             margin: EdgeInsets.symmetric(horizontal: 40),
             child: SizedBox(width: double.infinity, height: 40),
           ),
-          SizedBox(height: 30),
           ElevatedButton(
             onPressed: () {
               Navigator.pushAndRemoveUntil(
@@ -104,6 +104,7 @@ class MySplashScreen extends StatelessWidget {
               style: TextStyle(fontSize: 16.0, color: Colors.black),
             ),
           ),
+          SizedBox(height: 30),
         ],
         //2.buat title wanrna hitam huruf besar
         //3 buat subtitle warna lebih kecil
