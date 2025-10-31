@@ -1,5 +1,3 @@
-import 'dart:math';
-
 import 'package:flutter/material.dart';
 
 class MyLogin extends StatelessWidget {
@@ -33,6 +31,14 @@ class MyLogin extends StatelessWidget {
             ),
           ),
           SizedBox(height: 20),
+          TextField(
+            keyboardType: TextInputType.emailAddress,
+            decoration: InputDecoration(
+              border: OutlineInputBorder(),
+              labelText: 'Email',
+              hintText: 'Masukkan Email Anda',
+            ),
+          ),
         ],
       ),
     );
