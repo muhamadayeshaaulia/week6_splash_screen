@@ -1,3 +1,5 @@
+import 'dart:math';
+
 import 'package:flutter/material.dart';
 
 class MyLogin extends StatelessWidget {
@@ -9,6 +11,15 @@ class MyLogin extends StatelessWidget {
       body: Column(
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
+          Text(
+            "Welcome Back",
+            style: TextStyle(
+              fontSize: 32.0,
+              color: Colors.black,
+              fontWeight: FontWeight.bold,
+            ),
+          ),
+          SizedBox(height: 20),
           Container(
             height: 120,
             width: 120,
@@ -21,6 +32,7 @@ class MyLogin extends StatelessWidget {
               ),
             ),
           ),
+          SizedBox(height: 20),
         ],
       ),
     );
