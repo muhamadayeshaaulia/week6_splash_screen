@@ -63,7 +63,7 @@ class MySplashScreen extends StatelessWidget {
                     width: 10,
                     decoration: BoxDecoration(
                       shape: BoxShape.circle,
-                      color: Colors.green,
+                      color: Colors.green[100],
                     ),
                   ),
                 ],
@@ -77,7 +77,7 @@ class MySplashScreen extends StatelessWidget {
                     width: 10,
                     decoration: BoxDecoration(
                       shape: BoxShape.circle,
-                      color: Colors.green,
+                      color: Colors.green[100],
                     ),
                   ),
                 ],
