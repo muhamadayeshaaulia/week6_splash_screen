@@ -84,7 +84,11 @@ class MySplashScreen extends StatelessWidget {
           SizedBox(height: 20),
           ElevatedButton(
             onPressed: () {},
-            child: Text("Continue"),
+            style: ElevatedButton.styleFrom(backgroundColor: Colors.green),
+            child: Text(
+              "Continue",
+              style: TextStyle(fontSize: 16.0, color: Colors.black),
+            ),
           ),
         ],
         //2.buat title wanrna hitam huruf besar
