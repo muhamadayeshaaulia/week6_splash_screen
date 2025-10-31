@@ -97,20 +97,19 @@ class MyLogin extends StatelessWidget {
           SizedBox(height: 20),
           OutlinedButton.icon(
             onPressed: () {},
-            icon: Icon(Icons.g_mobiledata, color: Colors.red),
+            icon: Icon(Icons.g_mobiledata, color: Colors.blue),
             label: Text(
               "Login with Google",
-              style: TextStyle(color: Colors.red),
+              style: TextStyle(color: Colors.blue),
             ),
             style: OutlinedButton.styleFrom(
-              side: BorderSide(color: Colors.red),
+              side: BorderSide(color: Colors.blue),
               shape: RoundedRectangleBorder(
                 borderRadius: BorderRadius.circular(8.0),
               ),
               padding: EdgeInsets.symmetric(vertical: 12.0, horizontal: 24.0),
             ),
           ),
-
           SizedBox(height: 30),
         ],
       ),
