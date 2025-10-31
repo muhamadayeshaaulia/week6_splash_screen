@@ -55,6 +55,7 @@ flutter:
     - assets/images/splash_1.webp
     - assets/images/splash_2.webp
     - assets/images/splash_3.webp
+    - assets/images/user.jpg
   # The following line ensures that the Material Icons font is
   # included with your application, so that you can use the icons in
   # the material Icons class.

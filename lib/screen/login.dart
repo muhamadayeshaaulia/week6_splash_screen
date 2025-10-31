@@ -5,11 +5,23 @@ class MyLogin extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-      title: 'Login Screen',
-      home: Scaffold(
-        appBar: AppBar(title: const Text('Login')),
-        body: const Center(child: Text('Login Form')),
+    return Scaffold(
+      body: Column(
+        mainAxisAlignment: MainAxisAlignment.center,
+        children: [
+          Container(
+            height: 120,
+            width: 120,
+            decoration: BoxDecoration(
+              shape: BoxShape.circle,
+              color: Colors.grey,
+              image: DecorationImage(
+                image: AssetImage("assets/images/user.jpg"),
+                fit: BoxFit.cover,
+              ),
+            ),
+          ),
+        ],
       ),
     );
   }
