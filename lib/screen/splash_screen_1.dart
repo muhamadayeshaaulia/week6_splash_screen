@@ -34,6 +34,11 @@ class MySplashScreen extends StatelessWidget {
               fontWeight: FontWeight.bold,
             ),
           ),
+          Text(
+            "Forgot to bring your wallet \n when you are shoping",
+            textAlign: TextAlign.center,
+            style: TextStyle(fontSize: 14.0, color: Colors.grey),
+          ),
         ],
         //2.buat title wanrna hitam huruf besar
         //3 buat subtitle warna lebih kecil
