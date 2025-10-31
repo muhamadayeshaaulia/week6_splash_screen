@@ -25,6 +25,15 @@ class MySplashScreen extends StatelessWidget {
               ),
             ),
           ),
+          SizedBox(height: 20),
+          Text(
+            "wellcome",
+            style: TextStyle(
+              fontSize: 32.0,
+              color: Colors.black,
+              fontWeight: FontWeight.bold,
+            ),
+          ),
         ],
         //2.buat title wanrna hitam huruf besar
         //3 buat subtitle warna lebih kecil
