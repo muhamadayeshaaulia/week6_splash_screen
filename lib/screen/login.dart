@@ -45,27 +45,24 @@ class MyLogin extends StatelessWidget {
           ),
           SizedBox(height: 20),
 
-          Container(
-            height: 200,
-            width: 500,
-            child: TextField(
-              keyboardType: TextInputType.visiblePassword,
-              obscureText: true,
-              decoration: InputDecoration(
-                border: OutlineInputBorder(),
-                focusedBorder: OutlineInputBorder(
-                  borderSide: BorderSide(color: Colors.blue),
-                ),
-                prefixIcon: Icon(Icons.lock),
-                labelText: 'Password',
-                hintText: 'Masukkan Password Anda',
-                suffixIcon: IconButton(
-                  icon: Icon(Icons.visibility),
-                  onPressed: () {},
-                ),
+          TextField(
+            keyboardType: TextInputType.visiblePassword,
+            obscureText: true,
+            decoration: InputDecoration(
+              border: OutlineInputBorder(),
+              focusedBorder: OutlineInputBorder(
+                borderSide: BorderSide(color: Colors.blue),
+              ),
+              prefixIcon: Icon(Icons.lock),
+              labelText: 'Password',
+              hintText: 'Masukkan Password Anda',
+              suffixIcon: IconButton(
+                icon: Icon(Icons.visibility),
+                onPressed: () {},
               ),
             ),
           ),
+          SizedBox(height: 30),
         ],
       ),
     );
