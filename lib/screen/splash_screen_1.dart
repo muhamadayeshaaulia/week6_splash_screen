@@ -51,12 +51,40 @@ class MySplashScreen extends StatelessWidget {
                   color: Colors.green,
                 ),
               ),
-              Text("Hallo", style: TextStyle(fontSize: 10.0)),
-              SizedBox(width: 10),
-              Text("data", style: TextStyle(fontSize: 12.0)),
-              SizedBox(width: 10),
-              Text("test", style: TextStyle(fontSize: 14.0)),
+              SizedBox(height: 20),
+              Row(
+                mainAxisAlignment: MainAxisAlignment.center,
+                children: [
+                  Container(
+                    height: 10,
+                    width: 10,
+                    decoration: BoxDecoration(
+                      shape: BoxShape.circle,
+                      color: Colors.green,
+                    ),
+                  ),
+                ],
+              ),
+              SizedBox(height: 20),
+              Row(
+                mainAxisAlignment: MainAxisAlignment.center,
+                children: [
+                  Container(
+                    height: 10,
+                    width: 10,
+                    decoration: BoxDecoration(
+                      shape: BoxShape.circle,
+                      color: Colors.green,
+                    ),
+                  ),
+                ],
+              ),
             ],
+          ),
+          SizedBox(height: 20),
+          ElevatedButton(
+            onPressed: () {},
+            child: Text("Continue"),
           ),
         ],
         //2.buat title wanrna hitam huruf besar
