@@ -8,16 +8,21 @@ class MySplashScreen extends StatelessWidget {
     return Scaffold(
       body: Column(
         //todo
+        mainAxisAlignment: MainAxisAlignment.center,
         children: [
           //1. buat gambar
-          SizedBox(height: 30.0),
-          Text("text", style: TextStyle(fontSize: 12.0)),
+          SizedBox(height: 20),
+          Text("text", style: TextStyle(fontSize: 12)),
           Container(
-            height: 200,
-            width: 200,
+            height: 240,
+            width: 240,
             decoration: BoxDecoration(
               shape: BoxShape.circle,
               color: Colors.grey,
+              image: DecorationImage(
+                image: AssetImage("assets/images/splash_1.webp"),
+                fit: BoxFit.cover,
+              ),
             ),
           ),
         ],
