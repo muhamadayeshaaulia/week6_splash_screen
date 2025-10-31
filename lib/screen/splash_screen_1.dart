@@ -20,7 +20,7 @@ class MySplashScreen extends StatelessWidget {
             width: 240,
             decoration: BoxDecoration(
               shape: BoxShape.circle,
-              color: Colors.grey,
+              color: Colors.blue,
               image: DecorationImage(
                 image: AssetImage("assets/images/splash_1.webp"),
                 fit: BoxFit.cover,
@@ -87,25 +87,28 @@ class MySplashScreen extends StatelessWidget {
           ),
           SizedBox(height: 30),
           Container(
-            margin: EdgeInsets.symmetric(horizontal: 40),
-            child: SizedBox(width: double.infinity, height: 40),
-          ),
-          ElevatedButton(
-            onPressed: () {
-              Navigator.pushAndRemoveUntil(
-                context,
-                MaterialPageRoute(builder: (context) => MySplashScreen2()),
-                (Route<dynamic> route) => false,
-              );
-            },
-            style: ElevatedButton.styleFrom(backgroundColor: Colors.green),
-            child: Text(
-              "Continue",
-              style: TextStyle(fontSize: 16.0, color: Colors.black),
+            child: SizedBox(
+              height: 40,
+              width: double.infinity,
+              child: ElevatedButton(
+                onPressed: () {
+                  Navigator.pushAndRemoveUntil(
+                    context,
+                    MaterialPageRoute(builder: (context) => MySplashScreen2()),
+                    (Route<dynamic> route) => false,
+                  );
+                },
+                style: ElevatedButton.styleFrom(backgroundColor: Colors.green),
+                child: Text(
+                  "Continue",
+                  style: TextStyle(fontSize: 16.0, color: Colors.black),
+                ),
+              ),
             ),
           ),
-          SizedBox(height: 30),
+          SizedBox(height: 70),
         ],
+
         //2.buat title wanrna hitam huruf besar
         //3 buat subtitle warna lebih kecil
         //4. ada baris gambar bulet kecil ada 3

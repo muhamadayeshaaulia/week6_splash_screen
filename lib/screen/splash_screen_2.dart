@@ -85,26 +85,27 @@ class MySplashScreen2 extends StatelessWidget {
               ),
             ],
           ),
-          SizedBox(height: 20),
-          Container(
-            margin: EdgeInsets.symmetric(horizontal: 40),
-            child: SizedBox(width: double.infinity, height: 40),
-          ),
           SizedBox(height: 30),
-          ElevatedButton(
-            onPressed: () {
-              Navigator.push(
-                context,
-                MaterialPageRoute(builder: (context) => MySplashScreen3()),
-              );
-            },
-            style: ElevatedButton.styleFrom(backgroundColor: Colors.green),
-            child: Text(
-              "Continue",
-              style: TextStyle(fontSize: 16.0, color: Colors.black),
+          Container(
+            child: SizedBox(
+              height: 40,
+              width: double.infinity,
+              child: ElevatedButton(
+                onPressed: () {
+                  Navigator.push(
+                    context,
+                    MaterialPageRoute(builder: (context) => MySplashScreen3()),
+                  );
+                },
+                style: ElevatedButton.styleFrom(backgroundColor: Colors.green),
+                child: Text(
+                  "Continue",
+                  style: TextStyle(fontSize: 16.0, color: Colors.black),
+                ),
+              ),
             ),
           ),
-          SizedBox(height: 30),
+          SizedBox(height: 70),
         ],
         //2.buat title wanrna hitam huruf besar
         //3 buat subtitle warna lebih kecil
