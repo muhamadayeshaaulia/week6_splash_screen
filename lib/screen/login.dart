@@ -76,7 +76,7 @@ class MyLogin extends StatelessWidget {
           SizedBox(height: 30),
           Container(
             height: 40,
-            width: 100,
+            width: 400,
             child: ElevatedButton(
               onPressed: () {},
               style: ElevatedButton.styleFrom(backgroundColor: Colors.blue),
@@ -95,6 +95,7 @@ class MyLogin extends StatelessWidget {
             ],
           ),
           SizedBox(height: 20),
+
           OutlinedButton.icon(
             onPressed: () {},
             icon: Icon(Icons.g_mobiledata, color: Colors.blue),
@@ -105,9 +106,9 @@ class MyLogin extends StatelessWidget {
             style: OutlinedButton.styleFrom(
               side: BorderSide(color: Colors.blue),
               shape: RoundedRectangleBorder(
-                borderRadius: BorderRadius.circular(8.0),
+                borderRadius: BorderRadius.circular(20.0),
               ),
-              padding: EdgeInsets.symmetric(vertical: 12.0, horizontal: 24.0),
+              padding: EdgeInsets.symmetric(vertical: 20.0, horizontal: 130.0),
             ),
           ),
           SizedBox(height: 30),
