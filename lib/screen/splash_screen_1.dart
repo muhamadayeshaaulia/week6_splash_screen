@@ -6,12 +6,25 @@ class MySplashScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: Center(
-        child: Text(
-          'Welcome to Nim : 1123150188, Muhamad Ayesha Aulia',
-          style: TextStyle(fontSize: 24),
-          textAlign: TextAlign.center,
-        ),
+      body: Column(
+        //todo
+        children: [
+          //1. buat gambar
+          SizedBox(height: 30.0),
+          Text("text", style: TextStyle(fontSize: 12.0)),
+          Container(
+            height: 200,
+            width: 200,
+            decoration: BoxDecoration(
+              shape: BoxShape.circle,
+              color: Colors.grey,
+            ),
+          ),
+        ],
+        //2.buat title wanrna hitam huruf besar
+        //3 buat subtitle warna lebih kecil
+        //4. ada baris gambar bulet kecil ada 3
+        //5 ada button
       ),
     );
   }
