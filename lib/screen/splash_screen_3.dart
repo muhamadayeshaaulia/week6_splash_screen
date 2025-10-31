@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:week6_splash_screen/screen/login.dart';
 import 'package:week6_splash_screen/screen/splash_screen_1.dart';
 
 class MySplashScreen3 extends StatelessWidget {
@@ -95,7 +96,7 @@ class MySplashScreen3 extends StatelessWidget {
                 onPressed: () {
                   Navigator.pushAndRemoveUntil(
                     context,
-                    MaterialPageRoute(builder: (context) => MySplashScreen()),
+                    MaterialPageRoute(builder: (context) => MyLogin()),
                     (Route<dynamic> route) => false,
                   );
                 },
