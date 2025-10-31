@@ -1,9 +1,7 @@
-import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
-import 'package:week6_splash_screen/screen/splash_screen_2.dart';
 
-class MySplashScreen extends StatelessWidget {
-  const MySplashScreen({super.key});
+class MySplashScreen3 extends StatelessWidget {
+  const MySplashScreen3({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -23,14 +21,14 @@ class MySplashScreen extends StatelessWidget {
               shape: BoxShape.circle,
               color: Colors.grey,
               image: DecorationImage(
-                image: AssetImage("assets/images/splash_1.webp"),
+                image: AssetImage("assets/images/splash_3.webp"),
                 fit: BoxFit.cover,
               ),
             ),
           ),
           SizedBox(height: 20),
           Text(
-            "wellcome",
+            "wellcome3",
             style: TextStyle(
               fontSize: 32.0,
               color: Colors.black,
@@ -91,12 +89,7 @@ class MySplashScreen extends StatelessWidget {
           ),
           SizedBox(height: 30),
           ElevatedButton(
-            onPressed: () {
-              Navigator.push(
-                context,
-                MaterialPageRoute(builder: (context) => MySplashScreen2()),
-              );
-            },
+            onPressed: () {},
             style: ElevatedButton.styleFrom(backgroundColor: Colors.green),
             child: Text(
               "Continue",
