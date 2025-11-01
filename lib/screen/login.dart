@@ -30,6 +30,10 @@ class MyLogin extends StatelessWidget {
               ),
             ),
           ),
+          Text(
+            "Silahkan login untuk melanjutkan",
+            style: TextStyle(fontSize: 14.0, color: Colors.green),
+          ),
           SizedBox(height: 20),
           TextField(
             keyboardType: TextInputType.emailAddress,
